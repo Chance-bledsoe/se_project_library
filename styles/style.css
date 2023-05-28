@@ -411,7 +411,7 @@ margin: 0;
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff ;
-  padding: 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
