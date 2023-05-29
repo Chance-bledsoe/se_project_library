@@ -61,8 +61,8 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  margin: 32px;
-  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .header__image {
@@ -238,7 +238,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-size: contain;
 }
 
@@ -337,8 +337,7 @@
 }
 
 .step {
-  max-width: 220px;
-  /* Add styles */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -366,8 +365,7 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
-  position: relative;
-  z-index: -1;
+  z-index: 1;
   margin: 0;
 }
 
@@ -392,8 +390,8 @@
   z-index: 1;
 }
 
-.about__circle_last{
-margin: 0;
+.about__paragraph{
+  margin: 32px 0;
 }
 
 .about__circle {
@@ -415,7 +413,6 @@ margin: 0;
 }
 
 .footer__columns {
-  min-height: 116px;
   display: flex;
   justify-content: space-between;
 }
