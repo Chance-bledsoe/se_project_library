@@ -415,7 +415,9 @@ margin: 0;
 }
 
 .footer__columns {
+  min-height: 116px;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
@@ -432,13 +434,14 @@ margin: 0;
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
+  font-size: 16px;
+  line-height: 20px;
   margin-bottom: 16px;
 }
 
@@ -447,6 +450,8 @@ margin: 0;
 }
 
 .footer__column-heading {
+  font-size: 16px;
+  line-height: 20px;
   margin: 0 0 20px;
 }
 
@@ -470,6 +475,7 @@ margin: 0;
 }
 
 .footer__copyright {
-  margin: 108px;
-  margin-left: 0;
+  margin: 108px 0 0;
+  font-size: 16px;
+  line-height: 20px;
 }
